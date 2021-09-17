@@ -24,7 +24,7 @@ function ToDo() {
 
   return (
     <div>
-      <input value={text} onChange={(e) => setText(e.target.value)} />
+      <input placeholder="ToDo" value={text} onChange={(e) => setText(e.target.value)} />
       <button onClick={addItem}>Add</button>
       <br/><br/>
       {
